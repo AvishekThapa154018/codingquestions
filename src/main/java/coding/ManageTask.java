@@ -17,7 +17,7 @@ public class ManageTask {
                 int res = canBeCompleted(totalNoOfTask, noOfTaskForEachMember, daysAllocated);
                 System.out.println(res);
             }
-        } catch (InputMismatchException ie) {
+        } catch (Exception ie) {
             System.out.println("INVALID INPUT");
         }
     }
